@@ -1,4 +1,4 @@
-def newgit(rep0)
+def newgit(repo)
 {
   git "${repo}"
 }
