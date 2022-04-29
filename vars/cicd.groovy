@@ -12,5 +12,5 @@ deploy adapters: [tomcat9(credentialsId: 'a47b8015-4687-4fe5-804f-015fa2f0bd0c',
 }
 def test(jobname)
 {
-sh "java -jar /var/lib/jenkins/workspace/$(jobname)/testing.jar"
+  sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
 }
