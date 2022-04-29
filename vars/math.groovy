@@ -12,5 +12,5 @@ def  sub(a,b)
  }
  def div(a,b)
  {
- echo "the division between ${a} and ${b} is ${a/b}
+ echo "the division between ${a} and ${b} is ${a/b}"
  }
